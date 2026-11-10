@@ -1,20 +1,18 @@
-###
-# Calculates the sum of the digits in a number
-#
+
+
+
 def sum_digits(number):
     number = abs(number)
-
     string_number = str(number)
-
     running_total = 0
-
-    for digit in string_number: 
+    for digit in str(number):
         running_total += int(digit)
-
     return running_total
 
-input_number = int(input("Enter your number: "))
+input_number = int(input("Enter the number: "))
 sum_value = sum_digits(input_number)
+print(f"The sum of digits in the number {input_number} is {sum_value}")
 
-print(f"For number {input_number}, sum of its digits is equal to: {sum_value}")
+
+
 

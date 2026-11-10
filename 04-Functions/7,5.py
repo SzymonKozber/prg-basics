@@ -1,5 +1,6 @@
-def in_range(value):
-    """Check if the value is in the range [0, 100]."""
-    return 0 <= value <= 100
 
-print(in_range(int(input("Enter a number between 0 and 100: "))))
+
+def in_range(value,x,y):
+    return x <= value <= y
+
+print(in_range(34,21,50))

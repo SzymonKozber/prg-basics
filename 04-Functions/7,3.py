@@ -1,34 +1,43 @@
-def get_month_name(month_num):
-    if month_num < 1 or month_num > 12:
-        print("Invalid month number. Please enter a number between 1 and 12.")
-        return None
-    return month_num
 
-# Pobieramy numer od użytkownika i przekazujemy do funkcji
-user_input = int(input("Enter month number (1-12): "))
-month_num = get_month_name(user_input)
 
-if month_num == 1:
-    print("January")
-elif month_num == 2:
-    print("February")
-elif month_num == 3:
-    print("March")
-elif month_num == 4:
-    print("April")
-elif month_num == 5:
-    print("May")
-elif month_num == 6:
-    print("June")
-elif month_num == 7:
-    print("July")
-elif month_num == 8:
-    print("August")
-elif month_num == 9:
-    print("September")
-elif month_num == 10:
-    print("October")
-elif month_num == 11:
-    print("November")
-elif month_num == 12:
-    print("December")
+
+
+
+
+
+
+
+
+def month(n):
+    result = ''
+    if n == 1:
+        result = 'January'
+    elif n  == 2:
+        result = 'February'
+    elif n  == 3:
+        result = 'March'
+    elif n  == 4:
+        result = 'April'
+    elif n  == 5:
+        result = 'May'
+    elif n  == 6:
+        result = 'June'
+    elif n  == 7:
+        result = 'July'
+    elif n  == 8:
+        esult = 'August'
+    elif n  == 9:
+        result = 'September'
+    elif n  == 10:
+        result = 'October'
+    elif n  == 11:
+        result = 'November'
+    elif n  == 12:
+        result = 'December'
+    return result 
+
+
+print(month(4))
+print(month(9))
+print(month(11))
+
