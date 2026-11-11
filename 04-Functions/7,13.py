@@ -1,6 +1,9 @@
-def f(n):
-    return "".join(str(i) for i in range(1, n + 1))
 
-# Testy:
-print(f(11)) # "1234567891011"
-print(f(4))  # "1234"
+def f(n):
+    result = ""
+    for num in range(1, n + 1):
+        result += str(num)
+    return result
+
+print(f(11))
+print(f(4))

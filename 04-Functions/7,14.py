@@ -1,18 +1,45 @@
-def f(number1, number2, operator):
+
+
+
+def f(number1,number2,operator):
+    result = ""
     if operator == "+":
-        return number1 + number2
-    elif operator == "-":
-        return number1 - number2
-    elif operator == "*":
-        return number1 * number2
-    elif operator == "%":
-        return number1 % number2
-    elif operator == "**":
-        return number1 ** number2
+        result = number1 + number2
+    if operator == "-":
+        result = number1 - number2
+    if operator == "%":
+        result = number1 % number2
+    if operator == "**":
+        result = number1 ** number2
+    if operator == "*":
+        result = number1*number2
+    return result 
+
+print(f(2,3, "+")) 
+print(f(2,3, "%"))
+print(f(2,3, "**")) 
+print(f(2,3, "*")) 
+print(f(2,3, "-")) 
 
 
-print(f(2, 3, "+"))  
-print(f(2, 3, "%"))  
-print(f(2, 3, "**"))  
-print(f(2, 3, "*"))  
-print(f(2, 3, "-"))   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
