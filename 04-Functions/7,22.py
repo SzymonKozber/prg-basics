@@ -5,3 +5,29 @@ def f(name):
 print(f("Internet of Things"))    
 print(f("For Your Information"))   
 print(f("Python"))                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
