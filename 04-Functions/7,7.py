@@ -8,6 +8,3 @@ def f(binary_number):
     return True
 
 
-print(f("101101"))      
-print(f("1311a10100"))  
-

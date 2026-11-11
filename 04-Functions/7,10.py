@@ -28,3 +28,14 @@ def f(x,y):
     return count
 
 print(f(-7,8))
+
+
+
+def f(x,y):
+    total = 0
+    for digit in range (x,y+1):
+        if digit < 0 and digit % 2 == 0:
+            total += 1
+    return total
+
+print(f(-7,8))
