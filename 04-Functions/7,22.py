@@ -14,7 +14,9 @@ print(f("Python"))
 
 
 
-
+def f(name):
+    name_split = name.split()
+    return 
 
 
 
