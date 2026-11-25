@@ -22,3 +22,37 @@ print(f("2035"))
 print(f("1114")) 
 print(f("7071")) 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def f(product_code):
+    first_three_sum = int(product_code[0]) + int(product_code[1]) + int(product_code[2])
+    fourth_digit = int(product_code[3])
+    if first_three_sum % 7 == fourth_digit:
+        return True
+    return False
+print(f("1082")) 
+print(f("2035")) 
+print(f("1114")) 
+print(f("7071")) 
+
+
